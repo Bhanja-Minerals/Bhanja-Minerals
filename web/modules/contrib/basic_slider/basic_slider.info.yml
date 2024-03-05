@@ -1,0 +1,12 @@
+name: 'Basic Slider'
+type: module
+description: 'Creates an image slider using Basic Slider block.'
+package: 'Slider'
+core_version_requirement: ^10
+dependencies:
+  - drupal:block
+
+# Information added by Drupal.org packaging script on 2024-02-13
+version: '2.0.4'
+project: 'basic_slider'
+datestamp: 1707804621

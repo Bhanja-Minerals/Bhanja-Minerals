@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * This is the Basic Slider module for Image Slider Block.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function basic_slider_theme() {
+  return [
+    'basic_slider' => [
+      // Here you can pass any variables you want, if necessary.
+      'variables' => [
+        'images' => NULL,
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,16 @@
+<div id="basic-slider">
+
+  <div class="bs-slides-container">
+    {% for image in images %}
+      <div class="bs-slide">
+        {{ image }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="bs-arrows">
+    <a class="bs-prev" href="javascript:;">&#8249;</a>
+    <a class="bs-next" href="javascript:;">&#8250;</a>
+  </div>
+
+</div>

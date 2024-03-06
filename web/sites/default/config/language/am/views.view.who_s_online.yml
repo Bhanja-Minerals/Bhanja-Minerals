@@ -1,0 +1,12 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      title: 'ማን ነው መስመር ላይ'
+      exposed_form:
+        options:
+          exposed_sorts_label: ደርድር
+  who_s_online_block:
+    display_title: 'ማን ነው መስመር ላይ'
+    display_options:
+      block_description: 'ማን ነው መስመር ላይ'

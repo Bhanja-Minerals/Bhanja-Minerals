@@ -1,0 +1,5 @@
+label: 'Google Tag Manager'
+placeholderMainText: 'Dieser Dienst wurde blockiert, da Google Tag Manager Cookies (noch) nicht akzeptiert wurden.'
+placeholderAcceptText: 'Nur Google Tag Manager Cookies akzeptieren.'
+processorUrl: 'https://tagmanager.google.com/'
+processorPrivacyPolicyUrl: 'https://policies.google.com/privacy'

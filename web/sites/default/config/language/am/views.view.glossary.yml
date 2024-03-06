@@ -1,0 +1,14 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        title:
+          label: ዓርእስት
+        name:
+          label: ደራሲ
+      exposed_form:
+        options:
+          exposed_sorts_label: ደርድር
+  page_1:
+    display_title: ገጽ

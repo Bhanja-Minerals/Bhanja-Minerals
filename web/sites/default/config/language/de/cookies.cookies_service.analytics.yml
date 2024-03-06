@@ -1,0 +1,5 @@
+label: 'Google Analytics'
+placeholderMainText: 'Dieser Dienst wurde blockiert, da Google Analytics Cookies (noch) nicht akzeptiert wurden.'
+placeholderAcceptText: 'Nur Google Analytics Cookies akzeptieren.'
+processorUrl: 'https://analytics.google.com/'
+processorCookiePolicyUrl: 'https://support.google.com/analytics/answer/6004245'

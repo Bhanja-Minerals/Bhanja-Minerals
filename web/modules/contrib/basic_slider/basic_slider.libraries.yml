@@ -1,0 +1,11 @@
+basic-slider:
+  version: VERSION
+  css:
+    theme:
+      css/basic-slider.css: {}
+  js:
+    js/basic-slider.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery

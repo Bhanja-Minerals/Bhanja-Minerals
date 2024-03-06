@@ -1,0 +1,25 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        type:
+          label: ዓይነት
+        timestamp:
+          label: ቀን
+        message:
+          label: መልእክት
+        name:
+          label: ተጠቃሚ
+        link:
+          label: ክወናዎች
+      exposed_form:
+        options:
+          submit_button: ማጣሪያ
+          exposed_sorts_label: ደርድር
+      filters:
+        type:
+          expose:
+            label: ዓይነት
+  page:
+    display_title: ገጽ

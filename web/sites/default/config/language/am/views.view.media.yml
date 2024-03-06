@@ -1,0 +1,33 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: እርምጃ
+        bundle:
+          label: ዓይነት
+        uid:
+          label: ደራሲ
+        status:
+          label: ሁኔታ
+          settings:
+            format_custom_true: የታተመ
+        operations:
+          label: ክወናዎች
+      exposed_form:
+        options:
+          submit_button: ማጣሪያ
+          exposed_sorts_label: ደርድር
+      filters:
+        bundle:
+          expose:
+            label: ዓይነት
+        status:
+          group_info:
+            group_items:
+              1:
+                title: የታተመ
+        langcode:
+          expose:
+            label: ቋንቋ

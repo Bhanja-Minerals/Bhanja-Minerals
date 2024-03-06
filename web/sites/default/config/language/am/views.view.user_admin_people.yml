@@ -1,0 +1,40 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        name:
+          label: 'የተጠቃሚ ስም'
+        status:
+          label: ሁኔታ
+          settings:
+            format_custom_false: የተጣመረ
+            format_custom_true: ገባሪ
+        roles_target_id:
+          label: ሚናዎች
+        created:
+          label: 'አባልነት ለ'
+        operations:
+          label: ክወናዎች
+      exposed_form:
+        options:
+          submit_button: ማጣሪያ
+          exposed_sorts_label: ደርድር
+      filters:
+        status:
+          group_info:
+            label: ሁኔታ
+            group_items:
+              1:
+                title: ገባሪ
+              2:
+                title: የተጣመረ
+        permission:
+          expose:
+            label: ፈቃድ
+      use_more_text: ተጨማሪ
+  page_1:
+    display_title: ገጽ
+    display_options:
+      menu:
+        title: ዝርዝር

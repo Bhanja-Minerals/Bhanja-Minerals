@@ -1,0 +1,42 @@
+label: ይዞታ
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      title: ይዞታ
+      fields:
+        title:
+          label: ዓርእስት
+        name:
+          label: ደራሲ
+        status:
+          label: ሁኔታ
+          settings:
+            format_custom_true: የታተመ
+        operations:
+          label: ክወናዎች
+      exposed_form:
+        options:
+          submit_button: ማጣሪያ
+          exposed_sorts_label: ደርድር
+      filters:
+        title:
+          expose:
+            label: ዓርእስት
+        status:
+          expose:
+            label: ሁኔታ
+          group_info:
+            group_items:
+              1:
+                title: የታተመ
+        langcode:
+          expose:
+            label: ቋንቋ
+  page_1:
+    display_title: ገጽ
+    display_options:
+      menu:
+        title: ይዞታ
+      tab_options:
+        title: ይዞታ

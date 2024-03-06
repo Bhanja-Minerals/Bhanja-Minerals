@@ -1,0 +1,10 @@
+label: 'የቅርብ አስተያየቶች'
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      title: 'የቅርብ አስተያየቶች'
+  block_1:
+    display_title: ጥምር
+    display_options:
+      block_description: 'የቅርብ አስተያየቶች'

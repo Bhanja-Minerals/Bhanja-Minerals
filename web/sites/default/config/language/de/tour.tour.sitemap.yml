@@ -1,0 +1,11 @@
+tips:
+  page-title:
+    label: Seitentitel
+  message:
+    label: Sitemap-Nachricht
+  plugins:
+    label: Plugins
+  plugin-display-order:
+    label: Plugin-Anzeigereihenfolge
+  save-configuration:
+    label: 'Konfiguration speichern'

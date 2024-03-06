@@ -1,0 +1,18 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        info:
+          label: 'የጥምር ማብራሪያ'
+        operations:
+          label: ክወናዎች
+      exposed_form:
+        options:
+          exposed_sorts_label: ደርድር
+      filters:
+        info:
+          expose:
+            label: 'የጥምር ማብራሪያ'
+  page_1:
+    display_title: ገጽ

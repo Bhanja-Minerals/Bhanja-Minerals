@@ -1,0 +1,56 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: እርምጃ
+      exposed_form:
+        options:
+          exposed_sorts_label: ደርድር
+      filters:
+        status:
+          group_info:
+            label: የታተመ
+            group_items:
+              1:
+                title: የታተመ
+        name:
+          expose:
+            label: ስም
+        langcode:
+          expose:
+            label: ቋንቋ
+  page:
+    display_title: ገጽ
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: እርምጃ
+        edit_media:
+          text: አርትእ
+        delete_media:
+          text: ሰርዝ
+  widget:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: ስም
+      header:
+        display_link_table:
+          label: ሰንጠረዥ
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: ስም
+        uid:
+          label: ደራሲ
+      filters:
+        name:
+          expose:
+            label: ስም
+      header:
+        display_link_table:
+          label: ሰንጠረዥ

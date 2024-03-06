@@ -1,0 +1,4 @@
+label: 'Video bereitgestellt von YouTube, Vimeo'
+placeholderMainText: 'Dieser Inhalt wurde blockiert, weil Video-Cookies (noch) nicht akzeptiert wurden.'
+placeholderAcceptText: 'Nur Video-Cookies akzeptieren.'
+processorCookiePolicyUrl: 'https://policies.google.com/privacy'

@@ -1,0 +1,61 @@
+label: አስተያየቶች
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      title: አስተያየቶች
+      fields:
+        comment_bulk_form:
+          action_title: እርምጃ
+        subject:
+          label: ዓርእስት
+        name:
+          label: ደራሲ
+        entity_id:
+          label: 'የታተመው በ'
+        operations:
+          label: ክወናዎች
+      pager:
+        options:
+          tags:
+            next: 'ቀጣይ ›'
+            previous: '‹ ቀድሞ'
+            first: '« መጀምሪያ'
+            last: 'መጨረሻ »'
+      exposed_form:
+        options:
+          submit_button: ማጣሪያ
+          exposed_sorts_label: ደርድር
+      filters:
+        subject:
+          expose:
+            label: ዓርእስት
+        langcode:
+          expose:
+            label: ቋንቋ
+      use_more_text: ተጨማሪ
+  page_published:
+    display_title: 'አስተያየቶቹን አትም'
+    display_options:
+      menu:
+        title: አስተያየቶች
+  page_unapproved:
+    display_options:
+      fields:
+        comment_bulk_form:
+          action_title: እርምጃ
+        subject:
+          label: ዓርእስት
+        name:
+          label: ደራሲ
+        entity_id:
+          label: 'የታተመው በ'
+        operations:
+          label: ክወናዎች
+      filters:
+        subject:
+          expose:
+            label: ዓርእስት
+        langcode:
+          expose:
+            label: ቋንቋ

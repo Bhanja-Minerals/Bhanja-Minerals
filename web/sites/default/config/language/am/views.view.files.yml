@@ -1,0 +1,27 @@
+display:
+  default:
+    display_title: ነባሪ
+    display_options:
+      fields:
+        filename:
+          label: ስም
+        filemime:
+          label: 'ሚሜ አይነት'
+        status:
+          label: ሁኔታ
+      exposed_form:
+        options:
+          submit_button: ማጣሪያ
+          exposed_sorts_label: ደርድር
+      filters:
+        filemime:
+          expose:
+            label: 'ሚሜ አይነት'
+        status:
+          expose:
+            label: ሁኔታ
+  page_2:
+    display_options:
+      fields:
+        type:
+          label: 'የአካሉ ዓይነት'
